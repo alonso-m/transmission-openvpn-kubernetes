@@ -7,9 +7,9 @@ metadata:
 spec:                                                                                                                                                   
   storageClassName: manual                                                                                                                              
   capacity:                                                                                                                                             
-    storage: 500Gi                                                                                                                                      
+    storage: 50Gi                                                                                                                                      
   accessModes:                                                                                                                                          
     - ReadWriteMany                                                                                                                                     
   nfs:                                                                                                                                                  
-    path: /zfs/transmission
-    server: node05
+    path: /zfs/encrypted/application-data/transmission
+    server: node00
