@@ -11,5 +11,5 @@ spec:
   accessModes:                                                                                                                                          
     - ReadWriteMany                                                                                                                                     
   nfs:                                                                                                                                                  
-    path: /zfs/encrypted/application-data/transmission
+    path: /mnt/kingston/application-data/transmission
     server: node00
