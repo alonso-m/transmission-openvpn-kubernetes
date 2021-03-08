@@ -2,7 +2,7 @@ replicaCount: 1
 
 image:
   repository: "haugene/transmission-openvpn"
-  tag: "latest-arm64"
+  tag: "latest"
   pullPolicy: "Always"
 
 env:
